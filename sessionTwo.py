@@ -104,4 +104,56 @@ print(data)
 # tuple  immutable use () to define
 t = (1, 2, 3)
 print(t[0])
+print(t[0:1])
+# t[0] = 5 not permitted
+print(t)
 
+
+a, b, c = (1, 2, 3)
+print(a)
+print(b)
+print(c)
+
+# print(type(a, b, c))
+
+# Containers
+# Sets and dictionaries
+
+some_set = {4, 4, 1, 2, 3, 4}
+print(len(some_set))
+print(some_set)
+
+# creating empty set
+empty_set = set()
+empty_set.add(1)
+empty_set.add(2)
+empty_set.add("Yes")
+print(empty_set)
+
+set_A = {1,2,3,4,5}
+set_B = {4,5,6,7}
+print("Set A",set_A)
+print("Set B",set_B)
+print("Diff A - B",set_A )
+print("Intersection",set_A.intersection(set_B))
+print("Union",set_A.union(set_B))
+print("Symantric",set_A ^ set_B)
+
+
+# Dictionaries use  {} to define
+# key value pair
+D = {}
+D['a'] = 1
+D[2] = 'b'
+print(D)
+
+D = {'a' : 1, 2 : 'b'}
+print(D)
+
+
+# Default Dict
+
+
+# Counter
+
+#
